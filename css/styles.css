@@ -13,8 +13,7 @@ body {
   background-color: #ffffff;
   border-bottom: 1px;
   width: 1440px;
-  border: 5px dashed #f60f08;
-  border-style: hidden hidden solid hidden;
+  border-bottom: 1px solid #f60f08;
 }
 
 .logo {
