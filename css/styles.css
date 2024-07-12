@@ -143,6 +143,7 @@ body {
   background-color: #f4f4fd;
   color: #2e2f42;
   width: 1440px;
+  padding-top: 120px;
 }
 .our-team-title {
   font-weight: 700;
@@ -152,13 +153,13 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  border: 2px dashed #000000;
+  border: 5px dashed #a31a1a;
 }
 
 .our-team-list {
   background-color: #ffffff;
   width: 264px;
-  border: 2px dashed #000000;
+  border: 2px solid #000000;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -188,6 +189,8 @@ body {
 
 .portfolio {
   background-color: #e7e9fc;
+  width: 1440px;
+  padding-top: 120px;
 }
 
 .portfolio-title {
@@ -199,6 +202,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   border: 2px dashed #000000;
+  margin-top: ;
 }
 
 .portfolio-service {
@@ -219,6 +223,9 @@ body {
 .footer-container {
   background-color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  width: 1440px;
+  border: 5px dashed #f60f08;
+  padding-top: 100px;
 }
 
 .logo-footer {
@@ -229,6 +236,11 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 0px;
+  margin-left: 156px;
+  margin-top: 100px;
+  padding: 0px;
+  border: 5px dashed #f60f08;
 }
 
 .studio-footer {
@@ -241,13 +253,19 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  width: 264px;
+  padding: 0px;
+  margin-top: 16px;
+  margin-left: 156px;
+  margin-bottom: 100px;
+  border: 5px dashed #f60f08;
 }
 
 .test {
   border: 1px;
 }
 
-.section {
+.secton {
   padding-top: 120px;
   padding-bottom: 120px;
 }
