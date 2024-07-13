@@ -33,6 +33,10 @@ body {
   color: #2e2f42;
 }
 
+.menu-ul {
+  display: flex;
+}
+
 .menu {
   font-weight: 500;
   font-size: 16px;
@@ -51,6 +55,9 @@ body {
 
 .address {
   font-style: normal;
+  .address-ul {
+    display: flex;
+  }
 }
 .contacts {
   font-style: normal;
@@ -67,6 +74,12 @@ body {
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
+}
+
+.header-container,
+.logo-menu,
+.address {
+  display: flex;
 }
 
 .main-section {
@@ -112,6 +125,10 @@ body {
   background-color: #404bbf;
 }
 
+.features-ul {
+  display: flex;
+}
+
 .features-item {
   margin-left: 24px;
   width: 264px;
@@ -145,6 +162,11 @@ body {
   width: 1440px;
   padding-top: 120px;
 }
+
+.our-team-ul {
+  display: flex;
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -191,6 +213,10 @@ body {
   background-color: #e7e9fc;
   width: 1440px;
   padding-top: 120px;
+}
+
+.portfolio-ul {
+  display: flex;
 }
 
 .portfolio-title {
