@@ -9,6 +9,14 @@ body {
   background-color: #000000;
 }
 
+.header-container .container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+}
+
 .header-container {
   background-color: #ffffff;
   border-bottom: 1px;
@@ -24,8 +32,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  margin-top: 24px;
-  margin-bottom: 24px;
   margin-left: 156px;
 }
 
@@ -35,6 +41,7 @@ body {
 
 .menu-ul {
   display: flex;
+  gap: 40px;
 }
 
 .menu {
@@ -55,10 +62,13 @@ body {
 
 .address {
   font-style: normal;
-  .address-ul {
-    display: flex;
-  }
 }
+
+.address-ul {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts {
   font-style: normal;
   font-weight: 400;
@@ -127,6 +137,9 @@ body {
 
 .features-ul {
   display: flex;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-item {
@@ -165,6 +178,7 @@ body {
 
 .our-team-ul {
   display: flex;
+  gap: 24px;
 }
 
 .our-team-title {
@@ -294,6 +308,7 @@ body {
 .secton {
   padding-top: 120px;
   padding-bottom: 120px;
+  display: block;
 }
 
 ul {
