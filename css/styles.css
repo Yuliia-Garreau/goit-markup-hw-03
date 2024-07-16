@@ -44,7 +44,7 @@ body {
   background-color: #ffffff;
   border-bottom: 1px;
   width: 1440px;
-  border-bottom: 1px solid #b2babc;
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
 
   justify-content: flex-start;
@@ -152,12 +152,16 @@ body {
   margin-bottom: 48px;
 }
 .button-order-service {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
   margin-top: 0px;
@@ -165,7 +169,7 @@ body {
   margin-bottom: 188px;
   border-radius: 4px;
   padding: 16px 32px;
-  display: flex;
+
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
