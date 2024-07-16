@@ -23,9 +23,9 @@ body {
   width: 1440px;
   border-bottom: 1px solid #f60f08;
   display: flex;
-  flex-direction: row;
+
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo {
@@ -37,6 +37,7 @@ body {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   margin-left: 156px;
+  margin-top: 24px;
 }
 
 .studio {
@@ -57,7 +58,6 @@ body {
   color: #2e2f42;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-left: 347px;
 }
 
 .menu:hover,
@@ -72,6 +72,7 @@ body {
 .address-ul {
   display: flex;
   gap: 40px;
+  justify-content: flex-start;
 }
 
 .contacts {
@@ -83,7 +84,7 @@ body {
   color: #434455;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-left: 940px;
+  margin-left: 332px;
 }
 
 .contacts:hover,
@@ -143,13 +144,12 @@ body {
 .features-ul {
   display: flex;
   gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
 }
 
 .features-item {
   margin-left: 24px;
-  width: 264px;
+  width: calc((100% - 3 * 50px) / 4);
   text-align: left;
   border: 2px dashed #e7e9fc;
 }
@@ -184,6 +184,7 @@ body {
 .our-team-ul {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .our-team-title {
@@ -235,9 +236,14 @@ body {
 }
 
 .portfolio-ul {
-  display: inline-block;
+  display: flex;
   width: 1440px;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-title {
@@ -249,7 +255,6 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   border: 2px dashed #000000;
-  margin-top: ;
 }
 
 .portfolio-service {
