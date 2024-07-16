@@ -34,10 +34,13 @@ body {
 
 .container {
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.logo-menu {
+  align-items: center;
 }
 
 .header-container {
@@ -60,6 +63,7 @@ body {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   margin-left: 156px;
+  margin-right: 76px;
   margin-top: 24px;
   display: flex;
   align-items: center;
@@ -82,7 +86,8 @@ body {
   gap: 40px;
   width: 261px;
   height: 24px;
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-left: 76px;
 }
 
@@ -137,8 +142,7 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   margin-bottom: 0;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -150,6 +154,7 @@ body {
   text-align: center;
   margin-top: 188px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .button-order-service {
   display: block;
@@ -199,8 +204,6 @@ body {
   display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
   margin: 0px;
 }
 
